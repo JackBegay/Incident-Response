@@ -1,7 +1,7 @@
 # Alert Ticket
 
 ## Objective
-I was tasked with analyzing the given information and write up an alert ticket to represent our thoughts on the email. It is a phishing email including a file attachment with a password needed, for which it would then download the malicious file onto the affected machine. I need to find more information on the alert and what steps should be taken next. Information on the email and attachment are shown below.
+I was tasked with analyzing the given information and write up an alert ticket to represent my thoughts on the email. It is a phishing email including a file attachment with a password needed, for which it would then download the malicious file onto the affected machine. I need to find more information on the alert and what steps should be taken next. Information on the email and attachment are shown below.
 
 Known malicious file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
 
