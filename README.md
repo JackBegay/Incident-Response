@@ -21,10 +21,10 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Network analysis tools (such as Wireshark) for capturing and examining network traffic.
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
-**Ticket ID:** A-2703
-**Alert Message:** SERVER-MAIL Phishing attempt possible download of malware
-**Severity:** Medium
-**Details:** The user may have opened a malicious email and opened attachments or clicked links.
+**Ticket ID:** A-2703<br>
+**Alert Message:** SERVER-MAIL Phishing attempt possible download of malware<br>
+**Severity:** Medium<br>
+**Details:** The user may have opened a malicious email and opened attachments or clicked links.<br>
 **Ticket status:** Escalated<br>
 <br>
 **Ticket Comments:**
