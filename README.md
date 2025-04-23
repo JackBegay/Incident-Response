@@ -1,25 +1,44 @@
-# Incident Response Planning and Execution
+# Alert Ticket
 
 ## Objective
-[Brief Objective - Remove this afterwards]
-https://github.com/JackBegay/Detection-lab/tree/main
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+I was tasked with analyzing the given information and write up an alert ticket to represent our thoughts on the email. It is a phishing email including a file attachment with a password needed, for which it would then download the malicious file onto the affected machine. I need to find more information on the alert and what steps should be taken next. Information on the email and attachment are shown below.
+
+Known malicious file hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
+
+Email:
+From: Def Communications <76tguyhh6tgftrt7tg.su>  <114.114.114.114>
+Sent: Wednesday, July 20, 2022 09:30:14 AM
+To: <hr@inergy.com> <176.157.125.93>
+Subject: Re: Infrastructure Egnieer role
+
+Dear HR at Ingergy,
+
+I am writing for to express my interest in the engineer role posted from the website.
+
+There is attached my resume and cover letter. For privacy, the file is password protected. Use the password paradise10789 to open. 
+
+Thank you,
+
+Clyde West
+Attachment: filename="bfsvc.exe"
+
 
 ### Skills Learned
 [Bullet Points - Remove this afterwards]
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Proficiency in analyzing a file hash and if it malicious
+- Ability to effectively write up an alert ticket
+- An understanding of what actions should be taken next after alert
+
 
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- VirusTotal
+- MetaDefender
+
+
+### Work Completed
 
 **Ticket ID:** A-2703<br>
 **Alert Message:** SERVER-MAIL Phishing attempt possible download of malware<br>
